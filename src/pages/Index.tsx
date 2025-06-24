@@ -110,7 +110,7 @@ const Index = () => {
                 style={{ width: '640px', height: '360px' }}
               >
                 {/* Background MVP Text */}
-                <div className="absolute inset-0 flex items-center justify-start pl-8">
+                <div className="absolute inset-0 flex items-center justify-start pl-4">
                   <div className="text-white/10 font-black text-[120px] leading-none tracking-wider select-none">
                     MVP<br/>MVP<br/>MVP
                   </div>
@@ -132,7 +132,7 @@ const Index = () => {
                 </div>
 
                 {/* Player Image - moved to left side */}
-                <div className="absolute left-0 top-0 h-full w-1/2 overflow-hidden">
+                <div className="absolute left-1/2 top-0 h-full w-1/2 overflow-hidden">
                   <img 
                     src={playerImageUrl} 
                     alt="Player"
