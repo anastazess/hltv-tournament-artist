@@ -125,11 +125,11 @@ const Index = () => {
                 </div> */}
 
                 {/* Player Image - moved to left side */}
-                <div className="absolute left-0 top-0 h-full w-full max-w-[80%] overflow-visible transform -translate-x-15">
+                <div className="absolute left-0 top-0 h-full w-full max-w-[70%] overflow-visible transform -translate-x-13">
                 <img 
     src={playerImageUrl} 
     alt="Player"
-    className="h-full w-full object-cover object-center scale-80 transform translate-y-5"
+    className="h-full w-full object-cover object-center scale-70 transform translate-y-7"
     onError={(e) => {
       const target = e.target as HTMLImageElement;
       target.src = 'https://img-cdn.hltv.org/playerbodyshot/nbkBkY04pLo_1P6b59hVxy.png?ixlib=java-2.1.0&w=400&s=8a0e930e1585977f71c44fabfe3ddac1';
