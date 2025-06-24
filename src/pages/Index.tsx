@@ -107,30 +107,22 @@ const Index = () => {
               <div 
                 ref={cardRef}
                 className="w-full aspect-video bg-gradient-to-r from-slate-900 via-blue-900 to-slate-800 relative overflow-hidden"
-                style={{ width: '1270px', height: '720px' }}
+                style={{ width: '1280px', height: '720px' }}
               >
                 {/* Background MVP Text */}
-                <div className="absolute inset-0 flex items-center justify-start pl-5">
-                  <div className="text-white/100 font-black text-[120px] leading-none tracking-wider select-none">
-                    MVP<br/>MVP<br/>MVP<br/>MVP
-                  </div> 
-                </div>
-                {/*10 font-black */}
-                {/* HLTV Logo
-                <div className="absolute top-6 left-1/2 transform -translate-x-1/2">
-                  <div className="bg-white px-3 py-1 rounded flex items-center gap-2">
-                    <div className="w-4 h-4 bg-gray-800 rounded"></div>
-                    <span className="font-bold text-gray-800 text-sm">HLTV</span>
-                  </div>
-                </div> */}
+<div className="absolute inset-0 flex items-center justify-start pl-10">
+  <div className="text-white/100 font-black text-[240px] leading-none tracking-wider select-none">
+    MVP<br/>MVP<br/>MVP<br/>MVP
+  </div> 
+</div>
 
-                {/* Player Image - moved to left side */}
-                <div className="absolute left-0 top-0 h-full w-full max-w-[70%]">
+{/* Player Image - moved to left side */}
+<div className="absolute left-0 top-0 h-full w-full max-w-[70%]">
   <img 
     src={playerImageUrl} 
     alt="Player"
-    className="h-full w-full object-contain object-center" // Заменил object-cover на object-contain
-    style={{ transform: "translateX(4%) scale(1.4) translateY(15%)" }} // Объединил трансформации
+    className="h-full w-full object-contain object-center"
+    style={{ transform: "translateX(4%) scale(1.4) translateY(14%)" }}
     onError={(e) => {
       const target = e.target as HTMLImageElement;
       target.src = 'https://img-cdn.hltv.org/playerbodyshot/Xkqvuwl9o12Mi20Vd0lzHl.png?ixlib=java-2.1.0&w=400&s=f64d118affc3f2fbadcebf861d70400d';
@@ -138,32 +130,32 @@ const Index = () => {
   />
 </div>
 
-                {/* Content - back to right side */}
-                <div className="absolute right-8 top-1/2 transform -translate-y-1/2 text-right">
-                  <div className="text-white font-black text-6xl mb-2 tracking-wider">
-                    MVP OF
-                  </div>
-                  <div className="text-white font-black text-1.8xl mb-1 opacity-90 tracking-wide">
-                    {tournamentName}
-                  </div>
-                  <div className="text-white/60 font-black text-1.8xl mb-6 tracking-wide">
-                    {tournamentName}
-                  </div>
-                  
-                  <div className="text-white font-black text-6xl mb-2 tracking-wider">
-                    {rating}
-                  </div>
-                  <div className="text-cyan-400 font-bold text-lg mb-6 tracking-wider">
-                    RATING
-                  </div>
-                  
-                  <div className="text-white font-black text-5xl tracking-wider">
-                    {playerName}
-                  </div>
-                </div>
+{/* Content - back to right side */}
+<div className="absolute right-16 top-1/2 transform -translate-y-1/2 text-right">
+  <div className="text-white font-black text-8xl mb-4 tracking-wider">
+    MVP OF
+  </div>
+  <div className="text-white font-black text-4xl mb-2 opacity-90 tracking-wide">
+    {tournamentName}
+  </div>
+  <div className="text-white/60 font-black text-4xl mb-12 tracking-wide">
+    {tournamentName}
+  </div>
+  
+  <div className="text-white font-black text-8xl mb-4 tracking-wider">
+    {rating}
+  </div>
+  <div className="text-cyan-400 font-bold text-2xl mb-12 tracking-wider">
+    RATING
+  </div>
+  
+  <div className="text-white font-black text-7xl tracking-wider">
+    {playerName}
+  </div>
+</div>
 
-                {/* Gradient Overlay - back to right direction */}
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-transparent to-transparent pointer-events-none"></div>
+{/* Gradient Overlay - back to right direction */}
+<div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-transparent to-transparent pointer-events-none"></div>
               </div>
             </div>
           </div>
