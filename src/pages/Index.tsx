@@ -110,7 +110,7 @@ const Index = () => {
                 style={{ width: '640px', height: '360px' }}
               >
                 {/* Background MVP Text */}
-                <div className="absolute inset-0 flex items-center justify-start pl-4">
+                <div className="absolute inset-0 flex items-center justify-start pl-5">
                   <div className="text-white/100 font-black text-[120px] leading-none tracking-wider select-none">
                     MVP<br/>MVP<br/>MVP<br/>MVP<br/>MVP
                   </div> 
@@ -144,9 +144,6 @@ const Index = () => {
                     MVP OF
                   </div>
                   <div className="text-white font-black text-1.8xl mb-1 opacity-90 tracking-wide">
-                    {tournamentName}
-                  </div>
-                  <div className="text-white/60 font-black text-1.8xl mb-6 tracking-wide">
                     {tournamentName}
                   </div>
                   <div className="text-white/60 font-black text-1.8xl mb-6 tracking-wide">
