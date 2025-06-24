@@ -131,7 +131,7 @@ const Index = () => {
 </div>
 
 {/* Content - back to right side */}
-<div className="absolute right-16 top-1/2 transform -translate-y-18 text-right">
+<div className="absolute right-16 top-1/2 transform -translate-y-36 text-right">
   <div className="text-white font-black text-8xl mb-4 tracking-wider">
     MVP OF
   </div>
