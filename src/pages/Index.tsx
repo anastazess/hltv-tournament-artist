@@ -131,7 +131,7 @@ const Index = () => {
 </div>
 
 {/* Content - back to right side */}
-<div className="absolute right-16 top-1/2 transform -translate-y-36 text-right">
+<div className="absolute right-16 top-1/2 transform -translate-y-60 text-right">
   <div className="text-white font-black text-8xl mb-4 tracking-wider">
     MVP OF
   </div>
@@ -145,7 +145,7 @@ const Index = () => {
   <div className="text-white font-black text-8xl mb-4 tracking-wider">
     {rating}
   </div>
-  <div className="text-cyan-400 font-bold text-2xl mb-12 tracking-wider">
+  <div className="text-cyan-400 font-bold text-2xl mb-12 tracking-wider -translate-y-20">
     RATING
   </div>
   
