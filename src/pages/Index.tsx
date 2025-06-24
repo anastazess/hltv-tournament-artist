@@ -132,7 +132,7 @@ const Index = () => {
                 </div>
 
                 {/* Player Image - moved to left side */}
-                <div className="absolute left-1/2 top-0 h-full w-1/2 overflow-hidden">
+                <div className="absolute left-0 top-0 h-full w-1/2 overflow-hidden transform translate-x-4">
                   <img 
                     src={playerImageUrl} 
                     alt="Player"
