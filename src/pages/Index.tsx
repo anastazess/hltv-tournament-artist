@@ -130,7 +130,7 @@ const Index = () => {
     src={playerImageUrl} 
     alt="Player"
     className="h-full w-full object-contain object-center" // Заменил object-cover на object-contain
-    style={{ transform: "translateX(-30%) scale(1.5) translateY(13%)" }} // Объединил трансформации
+    style={{ transform: "translateX(30%) scale(1.5) translateY(13%)" }} // Объединил трансформации
     onError={(e) => {
       const target = e.target as HTMLImageElement;
       target.src = 'https://img-cdn.hltv.org/playerbodyshot/Xkqvuwl9o12Mi20Vd0lzHl.png?ixlib=java-2.1.0&w=400&s=f64d118affc3f2fbadcebf861d70400d';
