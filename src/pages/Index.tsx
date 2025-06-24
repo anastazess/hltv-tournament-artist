@@ -110,7 +110,7 @@ const Index = () => {
                 style={{ width: '640px', height: '360px' }}
               >
                 {/* Background MVP Text */}
-                <div className="absolute inset-0 flex items-center justify-start pl-8">
+                <div className="absolute inset-0 flex items-center justify-end pr-8">
                   <div className="text-white/10 font-black text-[120px] leading-none tracking-wider select-none">
                     MVP<br/>MVP<br/>MVP
                   </div>
@@ -131,8 +131,8 @@ const Index = () => {
                   </div>
                 </div>
 
-                {/* Player Image */}
-                <div className="absolute right-0 top-0 h-full w-1/2 overflow-hidden">
+                {/* Player Image - moved to left side */}
+                <div className="absolute left-0 top-0 h-full w-1/2 overflow-hidden">
                   <img 
                     src={playerImageUrl} 
                     alt="Player"
@@ -144,8 +144,8 @@ const Index = () => {
                   />
                 </div>
 
-                {/* Content */}
-                <div className="absolute right-8 top-1/2 transform -translate-y-1/2 text-right">
+                {/* Content - moved to left side */}
+                <div className="absolute left-8 top-1/2 transform -translate-y-1/2 text-left">
                   <div className="text-white font-black text-4xl mb-2 tracking-wider">
                     MVP OF
                   </div>
@@ -168,8 +168,8 @@ const Index = () => {
                   </div>
                 </div>
 
-                {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-transparent to-transparent pointer-events-none"></div>
+                {/* Gradient Overlay - reversed direction */}
+                <div className="absolute inset-0 bg-gradient-to-l from-slate-900/80 via-transparent to-transparent pointer-events-none"></div>
               </div>
             </div>
           </div>
