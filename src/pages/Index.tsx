@@ -129,7 +129,7 @@ const Index = () => {
                 <img 
     src={playerImageUrl} 
     alt="Player"
-    className="h-full w-full object-cover object-center scale-70 transform translate-y-7"
+    className="h-full w-full object-cover object-center scale-70 transform translate-y-10"
     onError={(e) => {
       const target = e.target as HTMLImageElement;
       target.src = 'https://img-cdn.hltv.org/playerbodyshot/nbkBkY04pLo_1P6b59hVxy.png?ixlib=java-2.1.0&w=400&s=8a0e930e1585977f71c44fabfe3ddac1';
