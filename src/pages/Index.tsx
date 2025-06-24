@@ -12,7 +12,7 @@ const Index = () => {
   const [tournamentName, setTournamentName] = useState('BLAST.TV AUSTIN MAJOR 2025');
   const [playerName, setPlayerName] = useState('ZYWOO');
   const [rating, setRating] = useState('1.42');
-  const [playerImageUrl, setPlayerImageUrl] = useState('https://img-cdn.hltv.org/playerbodyshot/nbkBkY04pLo_1P6b59hVxy.png?ixlib=java-2.1.0&w=400&s=8a0e930e1585977f71c44fabfe3ddac1');
+  const [playerImageUrl, setPlayerImageUrl] = useState('https://img-cdn.hltv.org/playerbodyshot/Xkqvuwl9o12Mi20Vd0lzHl.png?ixlib=java-2.1.0&w=400&s=f64d118affc3f2fbadcebf861d70400d');
   
   const cardRef = useRef<HTMLDivElement>(null);
 
@@ -130,10 +130,10 @@ const Index = () => {
     src={playerImageUrl} 
     alt="Player"
     className="h-full w-full object-contain object-center" // Заменил object-cover на object-contain
-    style={{ transform: "translateX(-20%) scale(1.5) translateY(15%)" }} // Объединил трансформации
+    style={{ transform: "translateX(-30%) scale(1.5) translateY(13%)" }} // Объединил трансформации
     onError={(e) => {
       const target = e.target as HTMLImageElement;
-      target.src = 'https://img-cdn.hltv.org/playerbodyshot/nbkBkY04pLo_1P6b59hVxy.png';
+      target.src = 'https://img-cdn.hltv.org/playerbodyshot/Xkqvuwl9o12Mi20Vd0lzHl.png?ixlib=java-2.1.0&w=400&s=f64d118affc3f2fbadcebf861d70400d';
     }}
   />
 </div>
