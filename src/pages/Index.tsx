@@ -107,7 +107,7 @@ const Index = () => {
               <div 
                 ref={cardRef}
                 className="w-full aspect-video bg-gradient-to-r from-slate-900 via-blue-900 to-slate-800 relative overflow-hidden"
-                style={{ width: '640px', height: '360px' }}
+                style={{ width: '1270px', height: '720px' }}
               >
                 {/* Background MVP Text */}
                 <div className="absolute inset-0 flex items-center justify-start pl-5">
