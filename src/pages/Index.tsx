@@ -111,7 +111,7 @@ const Index = () => {
               >
                 {/* Background MVP Text */}
                 <div className="absolute inset-0 flex items-center justify-start pl-4">
-                  <div className="text-white/5 font-black text-[120px] leading-none tracking-wider select-none">
+                  <div className="text-white/25 font-black text-[120px] leading-none tracking-wider select-none">
                     MVP<br/>MVP<br/>MVP
                   </div> 
                 </div>
@@ -121,13 +121,6 @@ const Index = () => {
                   <div className="bg-white px-3 py-1 rounded flex items-center gap-2">
                     <div className="w-4 h-4 bg-gray-800 rounded"></div>
                     <span className="font-bold text-gray-800 text-sm">HLTV</span>
-                  </div>
-                </div>
-
-                {/* Close button */}
-                <div className="absolute top-6 right-6">
-                  <div className="w-6 h-6 bg-white/20 rounded flex items-center justify-center">
-                    <span className="text-white text-xs">×</span>
                   </div>
                 </div>
 
@@ -149,10 +142,10 @@ const Index = () => {
                   <div className="text-white font-black text-6xl mb-2 tracking-wider">
                     MVP OF
                   </div>
-                  <div className="text-white font-bold text-2xl mb-1 opacity-90 tracking-wide">
+                  <div className="text-white font-black text-2xl mb-1 opacity-90 tracking-wide">
                     {tournamentName}
                   </div>
-                  <div className="text-white/60 font-bold text-2xl mb-6 tracking-wide">
+                  <div className="text-white/60 font-black text-2xl mb-6 tracking-wide">
                     {tournamentName}
                   </div>
                   
