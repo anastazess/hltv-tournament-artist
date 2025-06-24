@@ -142,10 +142,10 @@ const Index = () => {
     {tournamentName}
   </div>
   
-  <div className="text-white font-black text-8xl mb-4 tracking-wider">
+  <div className="text-white font-black text-[12xl] mb-4 tracking-wider">
     {rating}
   </div>
-  <div className="text-cyan-400 font-bold text-2xl mb-8 tracking-wider">
+  <div className="text-cyan-400 font-bold text-4xl mb-8 tracking-wider">
     RATING
   </div>
   
