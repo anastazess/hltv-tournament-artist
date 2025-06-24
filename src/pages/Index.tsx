@@ -111,8 +111,8 @@ const Index = () => {
               >
                 {/* Background MVP Text */}
 <div className="absolute inset-0 flex items-center justify-start pl-10">
-  <div className="text-white/100 font-black text-[240px] leading-none tracking-wider select-none">
-    MVP<br/>MVP<br/>MVP<br/>MVP<br/>MVP
+  <div className="text-white/75 font-black text-[240px] leading-none tracking-wider select-none">
+    MVP<br/>MVP<br/>MVP<br/>MVP
   </div> 
 </div>
 
@@ -145,7 +145,7 @@ const Index = () => {
   <div className="text-white font-black text-8xl mb-4 tracking-wider">
     {rating}
   </div>
-  <div className="text-cyan-400 font-bold text-2xl mb-12 tracking-wider">
+  <div className="text-cyan-400 font-bold text-2xl mb-8 tracking-wider">
     RATING
   </div>
   
