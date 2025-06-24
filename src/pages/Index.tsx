@@ -132,20 +132,20 @@ const Index = () => {
 
 {/* Content - back to right side */}
 <div className="absolute right-16 top-1/2 transform -translate-y-80 text-right">
-  <div className="text-white font-black text-[120.5px] mb-4 tracking-wider">
+  <div className="text-white font-black text-[115.5px] mb-4 tracking-wider">
     MVP OF
   </div>
   <div className="text-white font-black text-3xl mb-2 opacity-90 tracking-wide">
     {tournamentName}
   </div>
-  <div className="text-white/60 font-black text-3xl mb-24 tracking-wide">
+  <div className="text-white/60 font-black text-3xl mb-22 tracking-wide">
     {tournamentName}
   </div>
   
   <div className="text-white font-black text-8xl mb-4 tracking-wider">
     {rating}
   </div>
-  <div className="text-cyan-400 font-bold text-2xl mb-24 tracking-wider">
+  <div className="text-cyan-400 font-bold text-2xl mb-22 tracking-wider">
     RATING
   </div>
   
