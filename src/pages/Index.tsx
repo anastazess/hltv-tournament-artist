@@ -43,7 +43,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 p-4">
-      <div className="max-w-6xl mx-auto space-y-6">
+      <div className="max-w-6xl mx-auto space-y-6 ml-0">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
           Генератор MVP Карточек
         </h1>
