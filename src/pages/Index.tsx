@@ -12,7 +12,7 @@ const Index = () => {
   const [tournamentName, setTournamentName] = useState('BLAST.TV AUSTIN MAJOR 2025');
   const [playerName, setPlayerName] = useState('ZYWOO');
   const [rating, setRating] = useState('1.42');
-  const [playerImageUrl, setPlayerImageUrl] = useState('/lovable-uploads/7f3d6639-a4d9-4f74-b6a1-7f595931e07e.png');
+  const [playerImageUrl, setPlayerImageUrl] = useState('https://img-cdn.hltv.org/playerbodyshot/nbkBkY04pLo_1P6b59hVxy.png?ixlib=java-2.1.0&w=400&s=8a0e930e1585977f71c44fabfe3ddac1');
   
   const cardRef = useRef<HTMLDivElement>(null);
 
