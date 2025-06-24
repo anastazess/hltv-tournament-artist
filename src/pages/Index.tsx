@@ -130,7 +130,7 @@ const Index = () => {
     src={playerImageUrl} 
     alt="Player"
     className="h-full w-full object-contain object-center" // Заменил object-cover на object-contain
-    style={{ transform: "translateX(-15%) scale(1) translateY(18%)" }} // Объединил трансформации
+    style={{ transform: "translateX(-15%) scale(2) translateY(18%)" }} // Объединил трансформации
     onError={(e) => {
       const target = e.target as HTMLImageElement;
       target.src = 'https://img-cdn.hltv.org/playerbodyshot/nbkBkY04pLo_1P6b59hVxy.png';
@@ -143,10 +143,10 @@ const Index = () => {
                   <div className="text-white font-black text-6xl mb-2 tracking-wider">
                     MVP OF
                   </div>
-                  <div className="text-white font-black text-1.5xl mb-1 opacity-90 tracking-wide">
+                  <div className="text-white font-black text-1.8xl mb-1 opacity-90 tracking-wide">
                     {tournamentName}
                   </div>
-                  <div className="text-white/60 font-black text-1.5xl mb-6 tracking-wide">
+                  <div className="text-white/60 font-black text-1.8xl mb-6 tracking-wide">
                     {tournamentName}
                   </div>
                   
