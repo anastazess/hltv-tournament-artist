@@ -111,31 +111,31 @@ const Index = () => {
               >
                 {/* Background MVP Text */}
                 <div className="absolute inset-0 flex items-center justify-start pl-4">
-                  <div className="text-white/25 font-black text-[120px] leading-none tracking-wider select-none">
+                  <div className="text-white/35 font-black text-[120px] leading-none tracking-wider select-none">
                     MVP<br/>MVP<br/>MVP
                   </div> 
                 </div>
                 {/*10 font-black */}
-                {/* HLTV Logo */}
+                {/* HLTV Logo
                 <div className="absolute top-6 left-1/2 transform -translate-x-1/2">
                   <div className="bg-white px-3 py-1 rounded flex items-center gap-2">
                     <div className="w-4 h-4 bg-gray-800 rounded"></div>
                     <span className="font-bold text-gray-800 text-sm">HLTV</span>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Player Image - moved to left side */}
-                <div className="absolute left-0 top-0 h-full w-1/2 overflow-hidden transform translate-x-10">
-                  <img 
-                    src={playerImageUrl} 
-                    alt="Player"
-                    className="h-full w-full object-cover object-center"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=600&fit=crop';
-                    }}
-                  />
-                </div>
+                <div className="absolute left-0 top-0 h-full w-full max-w-[120%] overflow-visible transform -translate-x-1/4">
+                <img 
+    src={playerImageUrl} 
+    alt="Player"
+    className="h-full w-full object-cover object-center scale-125"
+    onError={(e) => {
+      const target = e.target as HTMLImageElement;
+      target.src = 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=600&fit=crop';
+    }}
+  />
+</div>
 
                 {/* Content - back to right side */}
                 <div className="absolute right-8 top-1/2 transform -translate-y-1/2 text-right">
