@@ -132,7 +132,7 @@ const Index = () => {
 
 {/* Content - back to right side */}
 <div className="absolute right-16 top-1/2 transform -translate-y-80 text-right">
-  <div className="text-white font-black text-[80.5px] mb-4 tracking-wider">
+  <div className="text-white font-black text-[120.5px] mb-4 tracking-wider">
     MVP OF
   </div>
   <div className="text-white font-black text-3xl mb-2 opacity-90 tracking-wide">
