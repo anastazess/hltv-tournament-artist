@@ -149,10 +149,10 @@ const Index = () => {
                   <div className="text-white font-black text-4xl mb-2 tracking-wider">
                     MVP OF
                   </div>
-                  <div className="text-white font-bold text-4xl mb-1 opacity-90 tracking-wide">
+                  <div className="text-white font-bold text-2xl mb-1 opacity-90 tracking-wide">
                     {tournamentName}
                   </div>
-                  <div className="text-white/60 font-bold text-4xl mb-6 tracking-wide">
+                  <div className="text-white/60 font-bold text-2xl mb-6 tracking-wide">
                     {tournamentName}
                   </div>
                   
