@@ -145,7 +145,7 @@ const Index = () => {
   <div className="text-white font-black text-8xl mb-4 tracking-wider">
     {rating}
   </div>
-  <div className="text-cyan-400 font-bold text-2xl mb-32 tracking-wider">
+  <div className="text-cyan-400 font-bold text-2xl mb-16 tracking-wider">
     RATING
   </div>
   
