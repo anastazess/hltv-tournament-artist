@@ -132,7 +132,7 @@ const Index = () => {
                 </div>
 
                 {/* Player Image - moved to left side */}
-                <div className="absolute left-0 top-0 h-full w-1/2 overflow-hidden transform translate-x-4">
+                <div className="absolute left-0 top-0 h-full w-1/2 overflow-hidden transform translate-x-8">
                   <img 
                     src={playerImageUrl} 
                     alt="Player"
@@ -149,10 +149,10 @@ const Index = () => {
                   <div className="text-white font-black text-4xl mb-2 tracking-wider">
                     MVP OF
                   </div>
-                  <div className="text-white font-bold text-lg mb-1 opacity-90 tracking-wide">
+                  <div className="text-white font-bold text-4xl mb-1 opacity-90 tracking-wide">
                     {tournamentName}
                   </div>
-                  <div className="text-white/60 font-bold text-sm mb-6 tracking-wide">
+                  <div className="text-white/60 font-bold text-4xl mb-6 tracking-wide">
                     {tournamentName}
                   </div>
                   
