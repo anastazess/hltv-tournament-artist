@@ -111,11 +111,11 @@ const Index = () => {
               >
                 {/* Background MVP Text */}
                 <div className="absolute inset-0 flex items-center justify-start pl-4">
-                  <div className="text-white/10 font-black text-[120px] leading-none tracking-wider select-none">
+                  <div className="text-white text-[120px] leading-none tracking-wider select-none">
                     MVP<br/>MVP<br/>MVP
-                  </div>
+                  </div> 
                 </div>
-
+                {/*10 font-black */}
                 {/* HLTV Logo */}
                 <div className="absolute top-6 left-1/2 transform -translate-x-1/2">
                   <div className="bg-white px-3 py-1 rounded flex items-center gap-2">
@@ -132,7 +132,7 @@ const Index = () => {
                 </div>
 
                 {/* Player Image - moved to left side */}
-                <div className="absolute left-0 top-0 h-full w-1/2 overflow-hidden transform translate-x-8">
+                <div className="absolute left-0 top-0 h-full w-1/2 overflow-hidden transform translate-x-10">
                   <img 
                     src={playerImageUrl} 
                     alt="Player"
@@ -146,13 +146,13 @@ const Index = () => {
 
                 {/* Content - back to right side */}
                 <div className="absolute right-8 top-1/2 transform -translate-y-1/2 text-right">
-                  <div className="text-white font-black text-4xl mb-2 tracking-wider">
+                  <div className="text-white font-black text-9xl mb-2 tracking-wider">
                     MVP OF
                   </div>
-                  <div className="text-white font-bold text-2xl mb-1 opacity-90 tracking-wide">
+                  <div className="text-white font-bold text-1xl mb-1 opacity-90 tracking-wide">
                     {tournamentName}
                   </div>
-                  <div className="text-white/60 font-bold text-2xl mb-6 tracking-wide">
+                  <div className="text-white/60 font-bold text-1xl mb-6 tracking-wide">
                     {tournamentName}
                   </div>
                   
