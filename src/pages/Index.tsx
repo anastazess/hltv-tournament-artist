@@ -149,7 +149,7 @@ const Index = () => {
     RATING
   </div>
   
-  <div className="text-white font-black text-7xl tracking-wider -translate-y-0">
+  <div className="text-white font-black text-7xl tracking-wider -translate-y-0 mt-10">
     {playerName}
   </div>
 </div>
