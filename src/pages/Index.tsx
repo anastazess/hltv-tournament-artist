@@ -130,22 +130,35 @@ const Index = () => {
   />
 </div>
 
-{/* Content - back to right side */}
+{/* Content */}
 <div className="absolute right-16 top-1/2 transform -translate-y-80 text-right">
+  {/* Логотип + LOCS.tv */}
+  <div className="flex items-center justify-end gap-3 mb-6">
+    <img 
+      src={logoUrl} 
+      alt="LOCS.tv" 
+      className="h-12 w-auto"
+    />
+    <div className="text-white font-bold text-4xl tracking-widest">LOCS.tv</div>
+  </div>
+
   <div className="text-white font-black text-[115.5px] mb-4 tracking-wider">
     MVP OF
   </div>
-  <div className="text-white font-black text-3xl mb-2 opacity-90 tracking-wide">
+  
+  <div className="text-white font-black text-3xl mb-1 tracking-wide">
     {tournamentName}
   </div>
-  <div className="text-white/60 font-black text-3xl mb-22 tracking-wide">
+  
+  {/* Прозрачный дубликат (как в оригинале) */}
+  <div className="text-white/30 font-black text-3xl mb-16 tracking-wide">
     {tournamentName}
   </div>
   
   <div className="text-white font-black text-[120px] mb-4 tracking-wider">
     {rating}
   </div>
-  <div className="text-cyan-400/75 font-bold text-4xl mb-20 tracking-widerу -mt-12">
+  <div className="text-cyan-400/75 font-bold text-4xl mb-20 tracking-wider -mt-12">
     RATING
   </div>
   
