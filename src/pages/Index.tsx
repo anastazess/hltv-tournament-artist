@@ -13,6 +13,7 @@ const Index = () => {
   const [playerName, setPlayerName] = useState('KARRIGAN');
   const [rating, setRating] = useState('1.42');
   const [playerImageUrl, setPlayerImageUrl] = useState('https://img-cdn.hltv.org/playerbodyshot/7xNUYJWQ2UD1WYEMJfAp2a.png?ixlib=java-2.1.0&w=400&s=11c47c21f9b16abaa29adaca460a575c');
+  const [logoUrl, setLogoUrl] = useState('https://...твоя-ссылка-на-логотип.png'); // или base64
   
   const cardRef = useRef<HTMLDivElement>(null);
 
