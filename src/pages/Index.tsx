@@ -93,6 +93,16 @@ const Index = () => {
                   placeholder="Вставьте ссылку на фото с HLTV"
                 />
               </div>
+
+              <div>
+  <Label htmlFor="logo">Ссылка на логотип</Label>
+  <Input
+    id="logo"
+    value={logoUrl}
+    onChange={(e) => setLogoUrl(e.target.value)}
+    placeholder="https://..."
+  />
+</div>
               
               <Button onClick={downloadImage} className="w-full" size="lg">
                 <Download className="mr-2 h-4 w-4" />
