@@ -167,14 +167,14 @@ const Index = () => {
   </div>
 
     {/* Прозрачный дубликат (как в оригинале) */}
-  <div className="text-white/25 font-black text-3xl mb-16 tracking-wide">
+  <div className="text-white/25 font-black text-3xl mb-10 tracking-wide">
     {tournamentName}
   </div>
   
   <div className="text-white font-black text-[120px] mb-4 tracking-wider">
     {rating}
   </div>
-  <div className="text-cyan-400/75 font-bold text-4xl mb-20 tracking-wider -mt-12">
+  <div className="text-cyan-400/75 font-bold text-4xl mb-10 tracking-wider -mt-12">
     RATING
   </div>
   
