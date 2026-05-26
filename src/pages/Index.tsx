@@ -23,7 +23,7 @@ const Index = () => {
     try {
       const canvas = await html2canvas(cardRef.current, {
         width: 1280,
-        height: 720,
+        height: 1000,
         scale: 1,
         backgroundColor: null,
         useCORS: true,
